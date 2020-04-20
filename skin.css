@@ -1,0 +1,58 @@
+/*
+    palette: 
+    #010101
+    #075757
+    #D4C5BA
+    #BAA5A4
+*/
+
+body {
+    font-family: 'Abel', sans-serif;
+    min-width: 500px;
+    color: #D4C5BA;
+    background-color: #075757;
+}
+
+a.button2{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #D4C5BA;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#D4C5BA;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    a.button2:hover{
+    color:#BAA5A4;
+    border-color:#BAA5A4;
+    }
+    a.button2:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+    }
+    @media all and (max-width:30em){
+    a.button2{
+    display:block;
+    margin:0.4em auto;
+    }}
+
+
+.list {
+    text-align: left;
+    width: 75%;
+    padding: 25px;
+    border-left: 5%;
+    margin:25px auto;
+    }
+
+
+    
+.footer {
+    font-family: 'Futurama+Alien+Alphabet+One';
+    text-align: center;
+}
