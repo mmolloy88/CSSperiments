@@ -11,6 +11,7 @@ body {
     min-width: 500px;
     color: #D4C5BA;
     background-color: #075757;
+    font-size: 16px;
 }
 
 a.button2{
@@ -50,9 +51,21 @@ a.button2{
     margin:25px auto;
     }
 
+a.textele {
+    color: #D4C5BA;
+    font-size: 16px;
+    }
+    a.textele:hover{
+        color: #BAA5A4;
+        font-size: 20px;
+    }
 
-    
-.footer {
-    font-family: 'Futurama+Alien+Alphabet+One';
-    text-align: center;
+.sec1 {
+    justify-content: end;
+    text-align: right;
+}
+
+.sec2 {
+    text-align: left;
+    max-width: 33%;
 }

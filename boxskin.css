@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    border: black;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: white;
+  }
